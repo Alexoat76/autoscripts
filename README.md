@@ -1,7 +1,7 @@
 # Autoscripts
 
 
-## Gitstartpro
+# Gitstartpro
 
 *`Gitstartpro`* is a script that automates the process of creating a Git repository. It creates a directory, adds a README file, initializes a Git repository, and performs Git commands (`add`, `commit`, and `push`) to upload the repository to GitHub. It also supports sending email notifications and generating a report of the script actions.
 
