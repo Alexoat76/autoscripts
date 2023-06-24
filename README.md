@@ -17,8 +17,8 @@ The script provides various options to customize the repository creation process
 
 ## Table of Contents
 - **[Installation](#Installation)**
-- **[Usage](#usage)**
-- **[Examples](#examples)**
+- **[Usage](#Usage)**
+- **[Examples](#Examples)**
 - **[License](#License)**
 
 ## Usage
