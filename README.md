@@ -16,16 +16,11 @@ The script provides various options to customize the repository creation process
 - Generates a report capturing the script's actions
 
 ## Table of Contents
+- **[Requirements](#Requirements)**
 - **[Installation](#Installation)**
 - **[Usage](#Usage)**
 - **[Examples](#Examples)**
 - **[License](#License)**
-
-
-
-## Examples
-
-Refer to the **[Examples](#examples)** section, for example, usages of the script.
 
 ## Requirements
 
