@@ -16,10 +16,10 @@ The script provides various options to customize the repository creation process
 - Generates a report capturing the script's actions
 
 ## Table of Contents
-- **[Installation](#installation)**
+- **[Installation](#Installation)**
 - **[Usage](#usage)**
 - **[Examples](#examples)**
-- License
+- **[License](#License)**
 
 ## Usage
 
@@ -59,10 +59,6 @@ chmod +x gitstartpro.sh
 
 4. Run the script with the desired options.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Usage
 
 The script can be executed with the following command:
@@ -79,4 +75,6 @@ The script can be executed with the following command:
   -v, --version: Display version information.
   -g, --generate-report: Generate a complete report for script actions.
 ```
+## License
 
+This project is licensed under the MIT License. See the LICENSE file for details.
