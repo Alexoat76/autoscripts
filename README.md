@@ -21,9 +21,7 @@ The script provides various options to customize the repository creation process
 - **[Examples](#Examples)**
 - **[License](#License)**
 
-## Usage
 
-Refer to the **[Usage](#usage)** section for detailed information on how to use the script.
 
 ## Examples
 
