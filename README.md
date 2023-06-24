@@ -1,19 +1,19 @@
 # Autoscripts
 
 
-# Gitstartpro
+## `Gitstartpro`
 
-*`Gitstartpro`* is a script that automates the process of creating a Git repository. It creates a directory, adds a README file, initializes a Git repository, and performs Git commands (`add`, `commit`, and `push`) to upload the repository to GitHub. It also supports sending email notifications and generating a report of the script actions.
+*`Gitstartpro`* is a bash or zsh script that automates the process of creating a Git repository. It creates a directory, adds a README.md file, initializes a Git repository, and performs Git commands (`add`, `commit`, and `push`) to upload the repository to GitHub. It also supports sending email notifications and generating a report of the script actions.
 
-The script provides various options to customize the repository creation process. You can specify the directory name, GitHub username, and email recipients for notifications, and generate a report to capture the script's actions.
+The script provides various options to customize the repository creation process. You can specify the directory name, GitHub username, and email recipients for notifications (*`optional`*), and generate a report to capture the script's actions (*`optional`*).
 
 ## Features
-- Creates a directory for the Git repository
-- Adds a README file to the repository
-- Initializes a Git repository
-- Performs Git commands (`add`, `commit`, `push`) to upload the repository to GitHub
-- Sends email notifications to specified recipients
-- Generates a report capturing the script's actions
+- Interactive command-line interface for a user-friendly experience.
+- Automatic creation of a directory with a customizable name.
+- Generation of a README.md file in the repository.
+- Git initialization, committing the initial changes, and pushing to GitHub.
+- Report file generation with system and execution details.
+- Option to send the report file via email with **[neomutt](https://seniormars.github.io/posts/neomutt/)**.
 
 ## Table of Contents
 - **[Requirements](#Requirements)**
