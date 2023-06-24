@@ -15,6 +15,12 @@ The script provides various options to customize the repository creation process
 - Sends email notifications to specified recipients
 - Generates a report capturing the script's actions
 
+## Table of Contents
+- **[Installation](#installation)**
+- **[Usage](#usage)**
+- **[Examples](#examples)**
+- License
+
 ## Usage
 
 Refer to the **[Usage](#usage)** section for detailed information on how to use the script.
