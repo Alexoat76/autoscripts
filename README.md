@@ -3,9 +3,7 @@
 
 ## `Gitstartpro`
 
-*`Gitstartpro`* is a bash or zsh script that automates the process of creating a Git repository. It creates a directory, adds a README.md file, initializes a Git repository, and performs Git commands (`add`, `commit`, and `push`) to upload the repository to GitHub. It also supports sending email notifications and generating a report of the script actions.
-
-The script provides various options to customize the repository creation process. You can specify the directory name, GitHub username, and email recipients for notifications (*`optional`*), and generate a report to capture the script's actions (*`optional`*).
+*`Gitstartpro`* is a powerful bash script that automates the process of creating a Git repository on GitHub. It provides a seamless workflow by handling the setup of a directory, the creation of a README.md file, and the execution of Git commands for repository initialization and upload. Additionally, it generates a detailed report file (*`optional`*) with essential information about the repository creation process. Optionally, the script can send the report file via email recipients for notifications.
 
 ## Features
 - Interactive command-line interface for a user-friendly experience.
@@ -52,6 +50,10 @@ chmod +x gitstartpro.sh
 
 4. Run the script with the desired options.
 
+```bash
+./gitstartpro.sh [OPTIONS]
+```
+
 ## Usage
 
 The script can be executed with the following command:
@@ -59,15 +61,42 @@ The script can be executed with the following command:
 ```bash
 ./gitstartpro.sh [OPTIONS]
 ```
-### Options:
+  ### Options:
+  ```bash
+    -d, --dir-name: Specify the name of the directory to create (default: 'my_project').
+    -h, --help: Show the help message and exit.
+    -r, --recipients: Specify email recipients for notification.
+    -u, --github-username: Specify the GitHub username.
+    -v, --version: Display version information.
+    -g, --generate-report: Generate a complete report for script actions.
+  ```
+
+## Examples
+
+1. Error for usage 
 ```bash
-  -d, --dir-name: Specify the name of the directory to create (default: 'my_project').
-  -h, --help: Show the help message and exit.
-  -r, --recipients: Specify email recipients for notification.
-  -u, --github-username: Specify the GitHub username.
-  -v, --version: Display version information.
-  -g, --generate-report: Generate a complete report for script actions.
+./gitstartpro.sh
+       Error: The -u or --github-username option is required. 
 ```
+
+2. Create a Git repository named 'my_project' for the GitHub user 'github-username':
+```bash
+./gitstartpro.sh -d my_project -u github-username
+```
+The script will ask in the next prompt again for the recipient to send the report message. If this has not been entered in the initial execution. Press enter to continue. 
+
+3. Create a Git repository named 'my_project' for the GitHub user 'github-username' and send mail for the recipient(s) specified in this prompt, also creates a report (*`optional`*).
+
+```bash
+./gitstartpro.sh -d my_project -u github-username -r user1@example.com -g
+```
+same as above
+
+```bash
+./gitstartpro.sh --dir-name my_project --github-username myusername --recipients user1@example.com --generate-report
+```
+
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
