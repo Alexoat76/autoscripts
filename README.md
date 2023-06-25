@@ -33,7 +33,7 @@
 - **[Usage](#Usage)**
 - **[Examples](#Examples)**
 - **[License](#License)**
-- **[Contributors](#Contributors)**
+- **[Credits](#Credits)**
 
 ## Requirements
 
