@@ -132,5 +132,15 @@ Alex O. Arevalo T.
 
 alexoat76@gmail.com
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/25px-Octicons-mark-github.svg.png)](https://github.com/Alexoat76)
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/25px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/Alexoat76/)
+<a href="https://www.gmail.com" >
+<img src="https://github.com/Alexoat76/Alexoat76/blob/main/assets/icons8-gmail.svg" alt="gmail" width="35" height="60">
+</a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/Alexoat76" >
+<img src="https://github.com/Alexoat76/Alexoat76/blob/main/assets/icons8-linkedin.svg" alt="linkedin" width="40" height="60">
+</a>
+&nbsp;&nbsp;
+<a href="https://twitter.com/Alexoat76" >
+<img src="https://github.com/Alexoat76/Alexoat76/blob/main/assets/icons8-twitter.svg" alt="twitter" width="40" height="50">
+</a>
+
