@@ -14,7 +14,7 @@
 
 ## `Gitstartpro`
 
-**[Gitstartpro](./gitstartpro)** is a powerful bash script that automates the process of creating a `Git` repository on **[GitHub](https://github.com/)**. It provides a seamless workflow by handling the setup of a directory, the creation of a *`README.md`* file, and the execution of Git commands for repository initialization and upload. Additionally, it generates a detailed report file (`optional`) with essential information about the repository creation process. Optionally, the script can send the report file via email recipients for notifications.
+**[Gitstartpro](./gitstartpro.sh)** is a powerful bash script that automates the process of creating a `Git` repository on **[GitHub](https://github.com/)**. It provides a seamless workflow by handling the setup of a directory, the creation of a *`README.md`* file, and the execution of Git commands for repository initialization and upload. Additionally, it generates a detailed report file (`optional`) with essential information about the repository creation process. Optionally, the script can send the report file via email recipients for notifications.
 
 ## Features
 - Interactive command-line interface for a user-friendly experience.
