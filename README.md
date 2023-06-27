@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/Zsh-blue.svg"/>
 <img src="https://img.shields.io/badge/Vim-green.svg"/>
 <img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
-<a href="https://github.com/alexoat76/autoscripts/blob/master/LICENSE"><img src="https://img.shields.io/github/license/alexoat76/autoscripts?color=2b9348" alt="License Badge"/></a>
+<a href="https://github.com/alexoat76/autoscripts/blob/main/LICENSE"><img src="https://img.shields.io/github/license/alexoat76/autoscripts?color=2b9348" alt="License Badge"/></a>
 </p>
 
 ---
