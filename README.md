@@ -44,10 +44,13 @@ The script requires the following commands to be available in the system:
 
 Make sure these commands are installed and accessible in your system before running the script.
 
-***NOTE:*** 
+---
+**![Static Badge](https://img.shields.io/badge/NOTE:-8A2BE2)**
 
 *This script is designed to run in **[Zsh](https://ohmyz.sh/)**, but it is also compatible with Bash. However, it is recommended to run the script
 in Zsh for optimal performance and expected behavior*.
+
+---
 
 ## Installation :computer:
 
