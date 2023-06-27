@@ -36,7 +36,7 @@
 - **[License](#License)**
 - **[Credits](#Credits)**
 
-## Requirements
+## Requirements :memo:
 
 The script requires the following commands to be available in the system:
 
@@ -78,7 +78,7 @@ chmod +x gitstartpro.sh
 ./gitstartpro.sh [OPTIONS]
 ```
 
-## Usage
+## Usage :toolbox:
 
 The script can be executed with the following command:
 
@@ -95,7 +95,7 @@ The script can be executed with the following command:
     -g, --generate-report: Generate a complete report for script actions.
   ```
 
-## Examples
+## Examples :eyes:
 
 + [x] 1\. Error for usage 
 ```bash
@@ -120,12 +120,12 @@ same as above
 ./gitstartpro.sh --dir-name my_project --github-username github-username --recipients user1@example.com --generate-report
 ```
 
-## License
+## License :page_with_curl:
 
 This project is licensed under the MIT License. See the **[LICENSE](./LICENSE)** file for details.
 
 ---
-## Credits
+## Credits :dart:
 
 ### Author(s):blue_book:
 
