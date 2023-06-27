@@ -1,3 +1,6 @@
+<!--START_CONTRIBUTIONS:readme-info-->
+<!--END_CONTRIBUTIONS:readme-info-->
+
 <p align="center">
 <img src="https://img.shields.io/badge/LINUX-darkgreen.svg"/>
 <img src="https://img.shields.io/badge/Git-orange.svg"/> 
@@ -128,9 +131,7 @@ This project is licensed under the MIT License. See the **[LICENSE](./LICENSE)**
 
 Work is owned and maintained by:
 
-Alex O. Arevalo T. 
-
-alexoat76@gmail.com
+Alex Arévalo | alexoat76@gmail.com
 
 <a href="https://www.gmail.com" >
 <img src="https://github.com/Alexoat76/Alexoat76/blob/main/assets/icons8-gmail.svg" alt="gmail" width="35" height="60">
