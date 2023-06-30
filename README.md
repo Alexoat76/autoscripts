@@ -10,7 +10,7 @@
 
 ---
 
-# Autoscripts
+# Autoscripts:
 
 
 ## `Gitstartpro`
