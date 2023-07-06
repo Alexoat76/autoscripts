@@ -122,7 +122,7 @@ same as above
 
 ## License :page_with_curl:
 
-This project is licensed under the MIT License. See the **[LICENSE](./LICENSE)** file for details.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE. See the **[LICENSE](./LICENSE)** file for details.
 
 ---
 ## Credits :dart:
