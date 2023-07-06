@@ -36,7 +36,7 @@
 - **[License](#License)**
 - **[Credits](#Credits)**
 
-## Requirements :memo:
+## Requirements
 
 The script requires the following commands to be available in the system:
 
@@ -52,7 +52,7 @@ in Zsh for optimal performance and expected behavior*.
 
 ---
 
-## Installation :computer:
+## Installation
 
 1. Clone the repository:
 
@@ -78,7 +78,7 @@ chmod +x gitstartpro.sh
 ./gitstartpro.sh [OPTIONS]
 ```
 
-## Usage :toolbox:
+## Usage
 
 The script can be executed with the following command:
 
@@ -120,12 +120,12 @@ same as above
 ./gitstartpro.sh --dir-name my_project --github-username github-username --recipients user1@example.com --generate-report
 ```
 
-## License :page_with_curl:
+## License
 
 This project is licensed under the **GNU** `General Public License`. See the **[LICENSE](./LICENSE)** file for details.
 
 ---
-## Credits :dart:
+## Credits
 
 ### Author(s):blue_book:
 
