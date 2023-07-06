@@ -95,7 +95,7 @@ The script can be executed with the following command:
     -g, --generate-report: Generate a complete report for script actions.
   ```
 
-## Examples :eyes:
+## Examples
 
 + [x] 1\. Error for usage 
 ```bash
