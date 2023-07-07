@@ -6,7 +6,7 @@
 #     Script name:    Gitstartpro
 #     Author:         Alex O. Arévalo T.
 #     Date:           2023-06-21
-#     Version script: v0.2.1
+#     Version:        v0.2.1
 #     License:        GNU General Public License
 
 #################################################################
@@ -39,11 +39,11 @@
 #
 # OPTIONS:
 #   -d, --dir-name        Specify the name of the directory to create (default: 'my_project')
+#   -g, --generate-report Generate a complete report for script actions
 #   -h, --help            Show this help message and exit
 #   -r, --recipients      Specify email recipients for notification
 #   -u, --github-username Specify the GitHub username
 #   -v, --version         Display version information
-#   -g, --generate-report Generate a complete report for script actions
 #
 # EXAMPLES:
 #   ./gitstartpro.sh
@@ -363,7 +363,7 @@ if [ "$generate_report" = true ]; then
   generate_report
 fi
 
-echo -e "${GREEN} >>> Gitstart script completed successfully!${RESET}"
+echo -e "${GREEN} >>> Gitstartpro script completed successfully!${RESET}"
 
 # Exit with status code 0 to indicate successful execution
 exit 0
