@@ -12,11 +12,17 @@
 
 # Autoscripts:
 
-
+<details  style="user-select: none;">
+<summary>
+  
 ## `Gitstartpro`
 
-***[Gitstartpro](./gitstartpro.sh)*** is a powerful bash script that automates the process of creating a `Git` repository on **[GitHub](https://github.com/)**. It provides a seamless workflow by handling the setup of a directory, the creation of a *`README.md`* file, and the execution of Git commands for repository initialization and upload. Additionally, it generates a detailed report file (`optional`) with essential information about the repository creation process. Optionally, the script can send the report file via email recipients for notifications.
+***[Gitstartpro](./gitstartpro.sh)*** is a powerful `Bash` **script** that automates the process of creating a `Git` repository on **[GitHub](https://github.com/)**. It provides a seamless workflow by handling the setup of a directory, the creation of a *`README.md`* file, and the execution of Git commands for repository initialization and upload. Additionally, it generates a detailed report file (`optional`) with essential information about the repository creation process. Optionally, the script can send the report file via email recipients for notifications.
 
+</summary>
+
+<p align='center'>
+  
 ## Features
 - Interactive command-line interface for a user-friendly experience.
 - Automatic creation of a directory with a customizable name.
@@ -119,6 +125,110 @@ same as above
 ```bash
 ./gitstartpro.sh --dir-name my_project --github-username github-username --recipients user1@example.com --generate-report
 ```
+</p>
+</details>
+
+<p align='center'>
+<details  style="user-select: none;">
+<summary>
+
+## `Gstpropwsh`
+
+***[Gstpropwsh](./gstpropwsh.sh)*** is a `PowerShell` **script** automates the process of creating a `Git` repository and uploading it to **[GitHub](https://github.com/)**. It performs various Git commands to initialize the repository, `add` files, `commit` changes, and `push` to `GitHub`. Additionally, it supports generating a report of the actions performed.
+
+</summary>
+
+<p align='center'>
+  
+## Features
+- Automated Git repository creation and setup.
+- Seamless integration with GitHub for easy repository upload.
+- Custom directory name for organizing projects.
+- Automatic `README.md` file generation.
+- Git initialization, committing the initial changes, and pushing to GitHub.
+- Optional generation of detailed action report.
+
+These features make the ***[Gstpropwsh](./gstpropwsh.sh)*** script a powerful tool for automating repository creation, streamlining Git operations, and enhancing collaboration with GitHub.
+
+## Getting Started :running:	
+<div style="text-align: justify">
+  
+## Table of Contents
+- **[Requirements](#Requirements)**
+- **[Installation](#Installation)**
+- **[Usage](#Usage)**
+- **[Examples](#Examples)**
+- **[License](#License)**
+- **[Credits](#Credits)**
+
+## Requirements
+
+The script requires the following commands to be available in the system:
+
+- `PowerShell` *version 7.3* or higher.
+- `Git` installed and configured on your system.
+- Access to a `GitHub` account.
+
+---
+**![Static Badge](https://img.shields.io/badge/NOTE:-8A2BE2)**
+
+*This script is designed to run in  **[PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3)**, but it is also compatible with other shells, such as `Command Prompt` or `Git Bash`.
+However, it is recommended to run the script in PowerShell for optimal performance and expected behavior*.
+
+---
+
+## Installation
+
+1. PowerShell Version:
+
+Make sure you have PowerShell installed on your system.
+
+  ```bash
+Get-Host
+```
+
+2. Clone the repository:
+
+  ```bash
+git clone https://github.com/Alexoat76/autoscripts.git
+```
+
+3. Change to the script directory:
+
+  ```bash
+cd autoscripts
+```
+
+4. Run the script with the desired options.
+
+```bash
+.\gstpropwsh.ps1 -u <GitHubUsername> [-d <DirectoryName>] [-g] [-h] [-v]
+```
+
+## Usage
+
+The script can be executed with the following command:
+
+```bash
+.\gstpropwsh.ps1 -u <GitHubUsername> [-d <DirectoryName>] [-g] [-h] [-v]
+```
+
+Replace <GitHubUsername> with your GitHub username. You can provide additional optional parameters as needed:
+
+  ### Options:
+  ```bash
+    -d, --dir-name: Specify the name of the directory to create (Default:'MyDirectory').
+    -g, --generate-report: Generate a complete report for script actions.
+    -h, --help: Show the help message and exit.
+    -u, --github-username: Specify the GitHub username.
+    -v, --version:  Display the current script version.
+  ```
+
+
+</p>
+</details>
+
+---
 
 ## License
 
