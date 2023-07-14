@@ -156,9 +156,9 @@ These features make the ***[Gstpropwsh](./gstpropwsh.sh)*** script a powerful to
   
 ## Table of Contents
 - **[Requirements](#Requirements-1)**
-- **[Installation](#Installation)**
-- **[Usage](#Usage)**
-- **[Examples](#Examples)**
+- **[Installation](#Installation-1)**
+- **[Usage](#Usage-1)**
+- **[Examples](#Examples-1)**
 - **[License](#License)**
 - **[Credits](#Credits)**
 
