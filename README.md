@@ -155,7 +155,7 @@ These features make the ***[Gstpropwsh](./gstpropwsh.sh)*** script a powerful to
 <div style="text-align: justify">
   
 ## Table of Contents
-- **[Requirements](#Requirements)**
+- **[Requirements](#Requirements-1)**
 - **[Installation](#Installation)**
 - **[Usage](#Usage)**
 - **[Examples](#Examples)**
