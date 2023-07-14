@@ -135,7 +135,7 @@ same as above
 
 ## `Gstpropwsh`
 
-***[Gstpropwsh](./gstpropwsh.sh)*** is a `PowerShell` **script** automates the process of creating a `Git` repository and uploading it to **[GitHub](https://github.com/)**. It performs various Git commands to initialize the repository, `add` files, `commit` changes, and `push` to `GitHub`. Additionally, it supports generating a report of the actions performed.
+***[Gstpropwsh](./gstpropwsh.ps1)*** is a `PowerShell` **script** automates the process of creating a `Git` repository and uploading it to **[GitHub](https://github.com/)**. It performs various Git commands to initialize the repository, `add` files, `commit` changes, and `push` to `GitHub`. Additionally, it supports generating a report of the actions performed.
 
 </summary>
 
