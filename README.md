@@ -235,7 +235,7 @@ Replace <GitHubUsername> with your GitHub username. You can provide additional o
 
 + [x] 2\. Create a Git repository named `MyDirectory` for the GitHub user `githubUsername`:
 ```bash
-./gstpropwsh.ps1 -d MyDirectory -u githubUsername
+./gstpropwsh.ps1-u githubUsername -d MyDirectory
 ```
 The script will ask in the next prompt again for the recipient to send the report message. If this has not been entered in the initial execution. Press *`enter`* to continue.
 
