@@ -149,7 +149,7 @@ same as above
 - Git initialization, committing the initial changes, and pushing to GitHub.
 - Optional generation of detailed action report.
 
-These features make the ***[Gstpropwsh](./gstpropwsh.sh)*** script a powerful tool for automating repository creation, streamlining Git operations, and enhancing collaboration with GitHub.
+These features make the ***[Gstpropwsh](./gstpropwsh.ps1)*** script a powerful tool for automating repository creation, streamlining Git operations, and enhancing collaboration with GitHub.
 
 ## Getting Started :running:	
 <div style="text-align: justify">
