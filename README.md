@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/Git-orange.svg"/> 
 <img src="https://img.shields.io/badge/Bash-ligthgreen.svg"/>
 <a href="https://ohmyz.sh/"><img src="https://img.shields.io/badge/Zsh-blue.svg"/>
-<a href="https://learn.microsoft.com/en-us/powershell/"><img src="https://img.shields.io/badge/PowerShell-blue.svg"/>
+<a href="https://learn.microsoft.com/en-us/powershell/"><img src="https://img.shields.io/badge/PowerShell-darkblue.svg"/>
 <img src="https://img.shields.io/badge/Vim-green.svg"/>
 <img src="https://img.shields.io/badge/Markdown-black.svg"/><br>
 <a href="https://github.com/alexoat76/autoscripts/blob/main/LICENSE"><img src="https://img.shields.io/github/license/alexoat76/autoscripts?color=2b9348" alt="License Badge"/></a>
@@ -225,7 +225,30 @@ Replace <GitHubUsername> with your GitHub username. You can provide additional o
     -v, --version:  Display the current script version.
   ```
 
+## Examples
 
++ [x] 1\. Error for usage 
+```bash
+./gstpropwsh.ps1
+       Error: The -u or --github-username option is required. 
+```
+
++ [x] 2\. Create a Git repository named `MyDirectory` for the GitHub user `githubUsername`:
+```bash
+./gstpropwsh.ps1 -d MyDirectory -u githubUsername
+```
+The script will ask in the next prompt again for the recipient to send the report message. If this has not been entered in the initial execution. Press *`enter`* to continue.
+
++ [x] 3\. Create a Git repository named `MyDirectory` for the GitHub user `githubUsername` and also generate a complete report for script actions: (`optional`).
+
+```bash
+./gstpropwsh.ps1 -u githubUsername -d MyDirectory -g
+```
+same as above
+
+```bash
+./gstpropwsh.ps1 --githubUsername githubUsername --directoryName MyDirectory --generateReport
+```
 </p>
 </details>
 
